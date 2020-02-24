@@ -1,3 +1,63 @@
-// Place all the styles related to the problems controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+//index
+.heading{
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+  font-size: 35px;
+}
+.menu{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  .user{
+    margin-left: 20px;
+
+  }
+  .language{
+
+  }
+}
+.navbar{
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+  .genre{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.main{
+  display: flex;
+  justify-content: center;
+  .content{
+    background-color: brown;
+    width: 500px;
+    height: 550px;
+    margin-top: 20px;
+    text-align: center;
+    .about{
+      height: 100px;
+    }
+    .code{
+      height: 100px;
+    }
+    .case{
+      height: 100px;
+    }
+    .solution{
+      height: 160px;
+      .input_areas{
+        background-color: cornflowerblue;
+        height: 140px;
+      }
+    }
+    .submit{
+      margin-top: 30px;
+    }
+    .input_area{
+      background-color: cornflowerblue;
+      height: 80px;
+    }
+  }
+}

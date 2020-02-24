@@ -1,0 +1,22 @@
+.main
+  = form_with model: @problem, class: :form, local: true do |f|
+    .content
+      .about 
+        WHAT?
+        .input_area
+          = f.text_area :title, class: 'input_box', placeholder: 'type a title'
+      .code 
+        CODE?
+        .input_area
+          = f.text_area :code, class: 'input_box', placeholder: 'type a code'
+      .case  
+        WHY?
+        .input_area
+          = f.text_area :cause, class: 'input_box', placeholder: 'type a case'
+      .solution 
+        HOW TO?
+        .input_areas
+          = f.text_area :solution, class: 'input_box', placeholder: 'type a how to'
+      .submit
+        = f.submit "INPUT", class: 'submit_area'   
+
