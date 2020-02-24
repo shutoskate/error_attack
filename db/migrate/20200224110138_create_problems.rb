@@ -5,8 +5,6 @@ class CreateProblems < ActiveRecord::Migration[5.2]
       t.text :code
       t.text :cause
       t.text :solution
-      t.references :user, foreign_key: true
-      t.references :genre, foreign_key: true
       t.timestamps
     end
   end
